@@ -1,7 +1,7 @@
 import pyqrcode 
 from pyqrcode import QRCode 
   
-s = "https://www.youtube.com/channel/UCeO9hPCfRzqb2yTuAn713Mg"  # String which represent the QR code 
+s = "https://www.google.com"  # String which represent the QR code 
   
 url = pyqrcode.create(s)  # Generate QR code 
   
