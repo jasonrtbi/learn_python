@@ -1,7 +1,7 @@
 import pyqrcode 
 from pyqrcode import QRCode 
 
-print('Paste your link here')
+print('Paste your link or anything info you want to convert to QR code here')
 s = input()
 
 url = pyqrcode.create(s)  # Generate QR code 
