@@ -1,5 +1,3 @@
-# luhn algorithm
-
 class CreditCard:
     def __init__(self, card_no):
         self.card_no = card_no
@@ -75,6 +73,7 @@ class CreditCard:
 
 card_number = input()
 card = CreditCard.set_card(card_number)
+
 print(card.company)
 print("Card : ", card.card_no)
 print(card.first_check())
