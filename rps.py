@@ -3,7 +3,7 @@ import random
 choices = ["Rock", "Paper", "Scissors"]
 computer = random.choice(choices)
 player = False
-cpu_score = 0
+cpu_score = 0  # ciunter for computer
 player_score = 0
 
 while True:
